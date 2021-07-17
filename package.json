@@ -1,0 +1,35 @@
+{
+  "name": "tplink-kasa-prometheus-exporter",
+  "version": "1.0.0",
+  "description": "Prometheus Exporter for TPLink Kasa Smart Plugs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cameronhall/tplink-kasa-prometheus-exporter.git"
+  },
+  "keywords": [
+    "tplink",
+    "prometheus",
+    "smarthome",
+    "kasa",
+    "metrics"
+  ],
+  "author": "Cameron Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cameronhall/tplink-kasa-prometheus-exporter/issues"
+  },
+  "homepage": "https://github.com/cameronhall/tplink-kasa-prometheus-exporter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-prom-bundle": "^6.3.6",
+    "moment": "^2.29.1",
+    "prom-client": "^13.1.0",
+    "shelljs": "^0.8.4",
+    "tplink-smarthome-api": "^3.3.0"
+  }
+}
