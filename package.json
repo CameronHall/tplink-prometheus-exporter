@@ -29,7 +29,7 @@
     "express-prom-bundle": "^6.3.6",
     "moment": "^2.29.1",
     "prom-client": "^13.1.0",
-    "shelljs": "^0.8.4",
+    "shelljs": "^0.8.5",
     "tplink-smarthome-api": "^3.3.0"
   }
 }
